@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Calculator</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+  <span id="note">Note: Make sure you add "x" sign before brackets </span>
+   <div class="calculator">
+      <h4>Shaligram's Calculator</h4>
+    
+      <div  class="box" >
+        <input type="text" class="display" readonly>
+      </div>
+      <div>
+        <button class="ope"  onclick="allClear()">AC</button>
+        <button class="ope" class="button" onclick="del()">Del</button>
+        <button class="ope" class="button"  onclick="show('.')">.</button>
+        <button class="ope" class="button" onclick="show('%')">%</button>
+        <button class="ope" class="button" onclick="show('/')">/</button>
+       </div>
+      <div>
+      <button class="numbers" class="button" onclick="show('7')">7</button>
+      <button class="numbers" class="button" onclick="show('8')">8</button>
+      <button class="numbers" class="button" onclick="show('9')">9</button>
+      <button class="ope" class="button" onclick="show('²')">x²</button>
+      <button class="ope" class="button"  onclick="show('*')">x</button>
+      </div>
+      <div>
+      <button class="numbers" class="button"  onclick="show('4')">4</button>
+      <button class="numbers" class="button" onclick="show('5')">5</button>
+      <button class="numbers" class="button" onclick="show('6')">6</button>
+      <button class="ope" class="button" onclick="show('^')">x^</button>
+      <button class="ope" class="button" onclick="show('-')">-</button>
+      </div>
+      <div>
+      <button class="numbers" class="button" onclick="show('1')">1</button>
+      <button class="numbers" class="button" onclick="show('2')">2</button>
+      <button class="numbers" class="button" onclick="show('3')">3</button>
+      <button class="ope" class="button" onclick="show('!')" >!</button>
+      <button class="ope" class="button" onclick="brackets()">( )</button>
+      </div>
+      <div>
+      <button id="double" class="button" onclick="show('00')">00</button>
+      <button id="zero" class="button" onclick="show('0')">0</button>
+      <button id="plus" class="button" onclick="show('+')">+</button>
+      <button id="equal" class="button" onclick="calculate()">=</button>
+      
+      </div>
+
+
+
+     </div>
+<script type="text/javascript" src="calculator.js"></script>
+</body>
+</html>

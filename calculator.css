@@ -1,0 +1,133 @@
+body {
+  max-width:100%;
+  max-height:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-top:20vh;
+  background:lightgrey;
+}
+
+#note{
+  position:absolute;
+  top:1vmin;
+  color:black;
+  font-size: 3vmin;
+  
+  
+}
+.calculator {
+   height:85vmin;
+   width:60vmin;
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   flex-direction:column;
+   padding:1vmin;
+   background:rgba(255,255,255,0.5);
+   border-radius:3vmin;
+   box-shadow:1vmin 1vmin 3vmin grey;
+   
+}
+h4{
+    position:relative;
+    top:-7vmin;
+    left:-9vmin;
+    font-size:4vmin;
+    margin-bottom:0;
+    text-shadow:0.5vmin 0.1vmin 4vmin grey;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color:orangered;
+    
+    
+}
+
+button {
+     height:7vmin;
+     width:10vmin;
+     font-size:5vmin;
+     margin:0.4vmin;
+     margin-top:1vmin;
+     text-align:center;
+     outline:none;
+     border:none;
+     border-radius:3vmin;
+     box-shadow:1vmin 1vmin 2vmin grey;
+     text-shadow:0 0 3vmin white;
+     transition:0.1s;
+}
+button:active{
+   transform:scale(0.95);
+   opacity:80%;
+
+}
+.display{
+   position:relative;
+   top:-1vmin;
+   height:15vmin;
+   width:99%;
+   outline:none;
+   border:none;
+   border-radius:3vmin;
+   background:rgba(0,0,0,0.8);
+   color:white;
+   font-size:7vmin;
+   box-shadow:0 0 3vmin grey;
+   
+}
+#plus {
+   height:14vmin;
+   width:10vmin;
+   font-size:10vmin;
+   margin-left:2vmin;
+   margin-right:1vmin;
+   background:lightyellow;
+   border-radius:2vmin;
+   box-shadow:1vmin 1vmin 2vmin gold;
+   color:#abcdef;
+}
+
+#double {
+    width:20vmin;
+    height:10vmin;
+    font-size:7vmin;
+    background:black;
+    color:#00fff0;
+    
+}
+#equal {
+   height:12vmin;
+   font-size:9vmin;
+   background:orange;
+   border-radius:2vmin;
+   box-shadow:1vmin 1vmin 2vmin orangered;
+}
+#zero 
+{
+   height:9vmin;
+   font-size:7vmin;
+   background:black;
+   color:#00fff0;
+}
+.numbers {
+   color:white;
+   background:black;
+   box-shadow:1vmin 1vmin 2vmin grey;
+   position:relative;
+   top:2vmin;
+   height:8vmin;
+   font-size:6vmin;
+}
+
+.ope {
+   color:#00FF00;
+   height:8vmin;
+   background:black;
+
+}
+.ope:first-child {
+  color:red;
+  font-weight:600;
+  
+}
